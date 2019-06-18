@@ -1,0 +1,87 @@
+header, nav, main, footer {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+  font-family: helvetica, sans-serif;
+}
+body {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  background-color: #9b7b64;
+  color: #3f372d;
+}
+header {
+  background-size: contain;
+  text-align: center;
+  color: #3f372d;
+}
+nav {
+  background-size: contain;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+  padding: 1px;
+}
+nav a {
+  text-decoration: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-width: thin;
+  font-size: 12pt;
+  text-align: center;
+  font-weight: bold;
+}
+a:link {
+  background-color: #5c5042;
+  color: #9aa0a6;
+}
+a:hover {
+  background-color: #9aa0a6;
+  color: #5c5042;
+}
+a:active {
+  background-color: #8b5853;
+  color: #9aa0a6;
+}
+a:visited {
+  background-color: #9aa0a6;
+  color: #8b5853;
+}
+main {
+  background-size: cover;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 10px;
+}
+.centerme {
+  text-align: center;
+  font-weight: bold;
+}
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+}
+footer {
+  font-size: .7em;
+  text-align: center;
+  padding-top: 10px;
+  clear: both;
+  padding-bottom: 2px;
+}
